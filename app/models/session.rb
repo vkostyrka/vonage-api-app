@@ -1,5 +1,3 @@
-require 'opentok'
-
 class Session < ApplicationRecord
   @opentok = OpenTok::OpenTok.new(ENV['OPENTOK_API_KEY'], ENV['OPENTOK_API_SECRET'])
 

@@ -1,5 +1,3 @@
-require 'opentok'
-
 class VideoController < ApplicationController
   before_action :set_opentok_vars
 
