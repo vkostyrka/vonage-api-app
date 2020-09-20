@@ -1,14 +1,11 @@
 class VideoController < ApplicationController
   before_action :set_opentok_vars
 
-  def landing
-  end
+  def landing; end
 
-  def index
-  end
+  def index; end
 
-  def screenshare
-  end
+  def screenshare; end
 
   def name
     @name = name_params[:name]
@@ -19,8 +16,7 @@ class VideoController < ApplicationController
     end
   end
 
-  def chat
-  end
+  def chat; end
 
   def set_opentok_vars
     @api_key = ENV['OPENTOK_API_KEY']
